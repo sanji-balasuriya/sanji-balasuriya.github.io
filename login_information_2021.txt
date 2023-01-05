@@ -1,0 +1,32 @@
+Dear all,
+
+I am writing to let you know that the new School web server is up and running.  Personal files have been transferred from the old server to the new one.  Unlike the old ?dis?, which was hosted on a physical machine in the School, the new server is a virtual server hosted by ITDS.
+
+As far as I can tell, personal web pages should work exactly as before.  Here is my home page, for example:
+
+http://www.maths.adelaide.edu.au/finnur.larusson/
+
+You can access your folders and files on the server via ssh or sftp, for example
+
+ssh a123456@maths.adelaide.edu.au
+
+using your usual University password.  
+
+The URL www.maths.adelaide.edu.au points to the official School website, which is maintained by the Faculty MER Team.
+
+The web pages of the Institute for Geometry and Its Applications are back at
+
+http://www.maths.adelaide.edu.au/vhosts/iga/
+
+In the next day or two, the alias http://www.iga.maths.adelaide.edu.au will point to these pages.
+
+Especially to those who are new to the School let me emphasise that having a personal page on the new server is entirely optional and does not replace your University Researcher Profile at
+
+https://researchers.adelaide.edu.au
+
+All researchers are expected to have a reasonably complete and up-to-date Researcher Profile.
+
+I would like to thank David Bowler, our Faculty Service Partner for specialist IT support, for overseeing the creation of the new server and the migration of the old server to the new one.  If you have any questions or problems with the new server, please contact David.
+
+Cheers,
+Finnur
