@@ -2,8 +2,9 @@
 <html>
   <head>
     <title>Sanjeeva Balasuriya</title>
-    <style>
-      .button {
+
+<style>
+.button {
         display: inline-block;
         padding: 10px 20px;
         text-align: center;
@@ -11,10 +12,24 @@
         color: #aa00aa;
         background-color: #ddbdbd <!---#7aa8b7-->;
         border-radius: 12px;
-        border: 2px solid #bb0000;
+        border: 2px solid #770077;
         outline: none;
       }
+ td { 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    word-wrap: break-word;
+}
+@media only screen and (max-width: 480px) {
+    /* horizontal scrollbar for tables if mobile screen */
+    .tablemobile {
+        overflow-x: auto;
+        display: block;
+    }
+}
     </style>
+ 
+ 
   <body alink="#FF000" vlink="#00008B" link="#0000FF" bgcolor="#FFFFFF">
  </head>
 
@@ -26,19 +41,19 @@
 <!-- The navigation bar at the top-->
 <table cellpadding="0" border="0" width="100%">
 <tr>
- <td width="100%" ,bgcolor="#DDBDBD" > <a class = "button" href="/teach.html"> 
+ <td width="100%"> <a class = "button" href="/teach.html"> 
 		<font size=+1> Teaching </font></a> 
 </td>
- <td width="100%" bgcolor="#DDBDBD">   <a class="button" href="/students.html"> 
+ <td width="100%">   <a class="button" href="/students.html"> 
 		<font size=+1> Students/Postdocs </font></a>
 </td>
 <td width="100%" > 	    <a class = "button" href="/research.html"> 
 		<font size=+1 color="#AA00AA"> Research </font></a>
 </td>
- <td width="100%" bgcolor="#DDBDBD">             <a class = "button" href="/publish.html">
+ <td width="100%">             <a class = "button" href="/publish.html">
                 <font size=+1 color="#AA00AA"> Publications </font></a> 
 </td>
-<td width="100%" bgcolor="#DDBDBD">                <a class = "button" href="/service.html">
+<td width="100%">                <a class = "button" href="/service.html">
                 <font size=+1 color="#AA00AA"> Service </font></a> 
 </td>
 </tr>	  
