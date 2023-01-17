@@ -4,14 +4,6 @@
     <title>Sanjeeva Balasuriya</title>
 
 <style>
-div {
-	max-width = 800px;
-	min-width = 480px;
-	padding = 10px;
-	display = block;
-	margin = auto;
-	font-family = "Helvetica", sans-serif;
-}
 .center {
 	border: 5px;
 	padding: 0 20%; /* 0 230px */
@@ -62,12 +54,31 @@ td {
     text-overflow: ellipsis; 
     word-wrap: break-word;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 950px) { 
+div {
+	max-width = 950px;
+	min-width = 480px;
+	padding = 10px;
+	display = block;
+	margin = auto;
+	font-family = "Helvetica", sans-serif;
+   }
+}
+@media only screen and (max-width: 600px) { /* for mobile phones */
     /* horizontal scrollbar for tables if mobile screen */
     .tablemobile {
         overflow-x: auto;
         display: block;
     }
+    /* make main paragraph fill */ 
+    div {
+	max-width = 600px;
+	min-width = 480px;
+	padding = 10px;
+	display = block;
+	margin = auto;
+	font-family = "Helvetica", sans-serif;
+  }
 }
 
     </style>
