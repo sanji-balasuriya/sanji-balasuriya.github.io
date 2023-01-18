@@ -67,15 +67,6 @@ div {
 	margin-right = 5%;
 	font-family = "Helvetica", sans-serif;
    }
-   div.header {
-	padding = 0 20px 0 20px;
-	display = block;
-	margin-left = 5%;
-	margin-right = 5%;
-	font-family = "Helvetica", sans-serif;
-	background-color = #eeddee;
-   }
-
 @media  (max-width: 480px) { /* for mobile phones */
     /* horizontal scrollbar for tables if mobile screen */
     .tablemobile {
@@ -98,7 +89,10 @@ h2 {
 	font-family: "Times New Roman", serif;
 	 font-size: 1.6em;
 }
-
+#grad1 {
+  height: 200px;
+  background-color: #dddddd; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #ffddbb , #bbddff);
 }
 
 </style>
@@ -132,7 +126,7 @@ h2 {
 
 
 <!-- page header -->
- <div class="header"> 
+ <div id="grad1"> 
  <table class="left">
  <tr>
  <td>
