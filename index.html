@@ -16,7 +16,7 @@ table.left { /* for header */
 	border: 30px;
 	padding: 30px 30px;
 	box-sizing: border-box;
-	margin:-4px 0 -20px 0px /* top right bottom left */
+	margin:-4px 0 -40px 0px /* top right bottom left */
 }
 p.fonthelvetica {
   font-family: "Helvetica", sans-serif;
@@ -67,6 +67,15 @@ div {
 	margin-right = 5%;
 	font-family = "Helvetica", sans-serif;
    }
+   div.header {
+	padding = 0 20px 0 20px;
+	display = block;
+	margin-left = 5%;
+	margin-right = 5%;
+	font-family = "Helvetica", sans-serif;
+	background-color = #eeddee;
+   }
+
 @media  (max-width: 480px) { /* for mobile phones */
     /* horizontal scrollbar for tables if mobile screen */
     .tablemobile {
@@ -123,7 +132,7 @@ h2 {
 
 
 <!-- page header -->
- <div> 
+ <div class="header"> 
  <table class="left">
  <tr>
  <td>
