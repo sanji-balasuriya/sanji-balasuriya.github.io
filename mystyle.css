@@ -31,6 +31,12 @@ h2 {
 	font-family: "Times New Roman", serif;
 	 font-size: 1.8em;
 }
+hr {
+	width: 50%;
+	height: 3px;
+	margin-left: 0;
+	background-color: #770077;
+}
 .imgwrap {
   	border: 1px;
   	border-radius: 20px;
