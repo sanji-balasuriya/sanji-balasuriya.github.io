@@ -74,6 +74,11 @@ div {
   background-image: linear-gradient(180deg, #99ccbb , #dddddd);
 }
 
+ul {
+	list-style-type: circle;
+	margin: 5px 9;
+}
+	
 /* the following for the smaller screens of mobile phones, less than the max-width specified */
 @media  (max-width: 250px) { /* for mobile phones */
     /* horizontal scrollbar for tables if mobile screen */
