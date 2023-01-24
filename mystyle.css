@@ -76,7 +76,7 @@ div {
 
 ul {
 	list-style-type: circle;
-	margin: 5px 9;
+	margin: 8px 0;
 }
 	
 /* the following for the smaller screens of mobile phones, less than the max-width specified */
