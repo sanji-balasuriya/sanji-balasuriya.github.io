@@ -80,8 +80,7 @@ ul {
 }
 ul.squash {
 	list-style-type: circle;
-	list-style-position: inside;
-	margin: -2px 0;
+	margin: -6px 0;
 }
 	
 /* the following for the smaller screens of mobile phones, less than the max-width specified */
