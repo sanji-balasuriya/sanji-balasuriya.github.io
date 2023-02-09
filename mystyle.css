@@ -23,8 +23,8 @@ p.fontverdana {
 .sectionheader{
 	align: left;
 	background-color: #bbcdcc;
-	font-color: #770077;
-	font-size: 130%;
+	color: #770077;
+	font-size: 150%;
 	font-style: italic;
 	font-weight: bold;
 }
