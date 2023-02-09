@@ -20,6 +20,14 @@ p.fontverdana {
   font-family: "Verdana", sans-serif;
   font-size: 0.7em;
 }
+p.sectionheader{
+	align=: left;
+	background-color: #bbcdcc;
+	font-color: #770077;
+	font-size: 130%;
+	font-style: italic;
+	font-weight: bold;
+}
 body {
 	font-size=100%;
 }
