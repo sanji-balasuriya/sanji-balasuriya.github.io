@@ -80,7 +80,7 @@ div {
    }
 #grad1 {
   background-color: #dddddd; /* For browsers that do not support gradients */
-  background-image: linear-gradient(180deg, #99ccbb , #dddddd);
+  background-image: linear-gradient(180deg, #aaddcc , #dddddd);  /* #99ccbb */
 }
 
 ul {
