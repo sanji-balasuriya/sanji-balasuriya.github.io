@@ -22,7 +22,7 @@ p.fontverdana {
 }
 .sectionheader{
 	align: left;
-	background-color: #ccddcc;
+	/* background-color: #ccddcc; */
 	color: #770077;
 	font-size: 127%;
 	font-style: italic;
